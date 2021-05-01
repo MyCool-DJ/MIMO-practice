@@ -1,14 +1,9 @@
-goal = 150
-savings = 70
+is_strong = True
+is_verified = False
 
-print(f"You're ${goal - savings} away from your goal")
-
-earned = 75
-savings += earned
-
-print(f"You're ${goal - savings} away from your goal")
-
-spent = 25
-savings -= spent
-
-print(f"You're ${goal - savings} away from your goal")
+if is_strong == True and is_verified == True:
+  print("New account created")
+if is_strong == False:
+  print("Please strengthen your password")
+if is_verified == False:
+  print("Please verify your email")
