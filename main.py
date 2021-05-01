@@ -1,10 +1,14 @@
-total = 12
-rented_cars = 6
-available = total - rented_cars
+goal = 150
+savings = 70
 
-print(f"{available} available cars")
+print(f"You're ${goal - savings} away from your goal")
 
-rented_cars += 3
-available = total - rented_cars
+earned = 75
+savings += earned
 
-print(f"{available} available cars")
+print(f"You're ${goal - savings} away from your goal")
+
+spent = 25
+savings -= spent
+
+print(f"You're ${goal - savings} away from your goal")
