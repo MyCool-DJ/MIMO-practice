@@ -1,9 +1,8 @@
-is_strong = True
-is_verified = False
-
-if is_strong == True and is_verified == True:
-  print("New account created")
-if is_strong == False:
-  print("Please strengthen your password")
-if is_verified == False:
-  print("Please verify your email")
+average = 86
+attendance = 88
+if average >85 and attendance > 85:
+  print ("You passed with flying colors")
+elif average >70 or attendance > 70:
+  print("You passed")
+else:
+  print("Try again next time")
